@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mant3ch Media - Digital Agency | Website Development, Branding & Content Creation</title>
+    <meta name="description" content="Mant3ch Media is a professional digital agency specializing in website development, branding, and content creation. We help businesses create stunning digital experiences that drive results.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#" class="logo" style="color: black;">Mant3ch Media</a>
+                <ul class="nav-links">
+                    <li><a href="#services" data-testid="link-services">Services</a></li>
+                    <li><a href="#showcase" data-testid="link-showcase">Work</a></li>
+                    <li><a href="#about" data-testid="link-about">About</a></li>
+                    <li><a href="#contact" data-testid="link-contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" data-testid="button-mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-testid="text-hero-title">Transforming Ideas Into Digital Excellence</h1>
+            <p class="hero-subtitle" data-testid="text-hero-subtitle">We craft stunning digital experiences that elevate your brand and drive measurable results</p>
+            <a href="#contact" class="btn btn-primary" data-testid="button-hero-cta">Start Your Project</a>
+        </div>
+    </section>
+
+    <!-- Three-Image Showcase -->
+    <section class="showcase" id="showcase">
+        <div class="container">
+            <h2 class="section-title" data-testid="text-showcase-title">Our Recent Work</h2>
+            <div class="showcase-grid">
+                <div class="showcase-item" data-testid="card-showcase-1">
+                    <img src="generated_images/Website_development_showcase_sample_84ce372a.png" alt="Website Development Project">
+                    <div class="showcase-overlay">
+                        <h3>Modern Web Design</h3>
+                    </div>
+                </div>
+                <div class="showcase-item" data-testid="card-showcase-2">
+                    <img src="generated_images/Branding_project_showcase_sample_017bcfc9.png" alt="Branding Project">
+                    <div class="showcase-overlay">
+                        <h3>Brand Identity</h3>
+                    </div>
+                </div>
+                <div class="showcase-item" data-testid="card-showcase-3">
+                    <img src="generated_images/Content_creation_showcase_sample_6f3f7615.png" alt="Content Creation">
+                    <div class="showcase-overlay">
+                        <h3>Content Production</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title" data-testid="text-services-title">What We Do</h2>
+            <p class="section-subtitle">Comprehensive digital solutions tailored to your business needs</p>
+            <div class="services-grid">
+                <div class="service-card" data-testid="card-service-web">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect width="18" height="18" x="3" y="3" rx="2"/>
+                            <path d="M3 9h18"/>
+                            <path d="M9 21V9"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Website Development</h3>
+                    <p class="service-description">Custom websites built with modern technologies. Fast, responsive, and optimized for conversions.</p>
+                </div>
+                <div class="service-card" data-testid="card-service-branding">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Branding</h3>
+                    <p class="service-description">Strategic brand identity design that resonates with your audience and stands out in the market.</p>
+                </div>
+                <div class="service-card" data-testid="card-service-content">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="23 7 16 12 23 17 23 7"/>
+                            <rect width="15" height="14" x="1" y="5" rx="2" ry="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Content Creation</h3>
+                    <p class="service-description">Engaging multimedia content that tells your story and connects with your target audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-testid="img-founder">
+                    <img src="images/mant3ch official logo.png" alt="Founder">
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title" data-testid="text-about-title">About Mant3ch Media</h2>
+                    <h6 style="text-align: center;">Founder</h6>
+                    <p class="about-text" data-testid="text-about-bio">Founded with passion by a Young 19y/o SA entrepreneur Amukelani Mabasa, 
+                        Mant3ch is the result of a journey fueled by curiosity and determination.
+                         As a self-taught software developer, Amukelani discovered the power of technology to create, connect, and transform ideas. 
+                         Driven by a desire to turn skills into solutions, he decided to step into entrepreneurship, building Mant3ch to offer businesses media branding, web development, and content creation services all while sharing the lessons learned along the way.
+                    </p>
+                    <h6 style="text-align: center;">company</h6>
+                    <p class="about-text">At Mant3ch media We believe in building long-term partnerships with our clients, focusing on sustainable growth and measurable success.
+                         Our team of experienced designers, developers, and content creators work collaboratively to bring your vision to life.
+                         Every project is an opportunity to create something remarkable.</p>
+                    <div class="social-links">
+                        <a href="https://twitter.com" target="_blank" rel="noopener" class="social-link" data-testid="link-social-twitter" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-link" data-testid="link-social-linkedin" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect width="4" height="12" x="2" y="9"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="social-link" data-testid="link-social-instagram" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-testid="text-contact-title">Let's Work Together</h2>
+            <p class="section-subtitle">Have a project in mind? We'd love to hear from you.</p>
+            <form class="contact-form" id="contactForm" data-testid="form-contact">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required data-testid="input-name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required data-testid="input-email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required data-testid="input-message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" data-testid="button-submit">Send Message</button>
+                <div class="form-message" id="formMessage" data-testid="text-form-message"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Client Logos -->
+<section class="clients">
+    <div class="container">
+        <h3 class="clients-title">Trusted By Upcoming Brands</h3>
+        <div class="clients-grid">
+            <div class="client-logo">
+                <img src="images/TNG_LOGO.png" alt="TNG Logo">
+            </div>
+            <div class="client-logo">
+                <img src="images/tvetGuide_PP.png" alt="TVET Guide Logo">
+            </div>
+            <div class="client-logo">
+                <img src="images/kiddow's sneaker plug logo.png" alt="kiddow's Logo">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Mant3ch Media. All rights reserved.</p>
+                <div class="footer-links">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
+
