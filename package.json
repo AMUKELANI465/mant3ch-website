@@ -1,0 +1,25 @@
+{
+  "name": "mant3ch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMUKELANI465/mant3ch-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AMUKELANI465/mant3ch-website/issues"
+  },
+  "homepage": "https://github.com/AMUKELANI465/mant3ch-website#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "nodemailer": "^7.0.10"
+  }
+}
