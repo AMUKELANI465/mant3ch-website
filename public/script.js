@@ -144,7 +144,7 @@ document.getElementById('contactForm').addEventListener('submit', async (e) => {
   const formData = new FormData(e.target);
   const data = Object.fromEntries(formData.entries());
 
-const response = await fetch('https://mant3ch-website-2.com/send-email', {
+const response = await fetch('https://mant3ch-website-2.onrender.com/send-email', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify(data),
