@@ -139,7 +139,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
 // handling the form 
-document.getElementById('contactForm').addEventListener('submit', async (e) => {
+document.getElementById('contact-Form').addEventListener('submit', async (e) => {
   e.preventDefault();
   const formData = new FormData(e.target);
   const data = Object.fromEntries(formData.entries());
